@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Projeto 41 - Fase 1</title>
+
+<link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+  
+
+<div class="container">
+
+<h1>FASE • </h1>
+
+<p class="frase">
+
+descobriu algo? as vezes a resposta esta diante dos seus olhos(mesma resposta)
+
+</p>
+  
+ <img src="dica.png" class="personagem">
+
+<input
+type="password"
+id="senha"
+placeholder="Digite a resposta">
+
+<br><br>
+
+<button onclick="verificar()">
+
+ENTRAR
+
+</button>
+
+</div>
+
+<script>
+
+function verificar(){
+
+var senha=document.getElementById("senha").value;
+
+if(senha=="41"){
+
+window.location.href="fase 2(1).html";
+
+}else{
+
+alert("nao é essa a resposta");
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>

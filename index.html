@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<title>Projeto 41</title>
+
+<link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+  
+}
+
+<div class="container">
+
+<h1>•</h1>
+
+<p class="frase">
+o que esta fazendo aqui?
+</p>
+
+<input
+type="password"
+id="senha"
+placeholder="Digite a resposta">
+
+<br><br>
+
+<button onclick="verificar()">
+ENTRAR
+</button>
+
+</div>
+
+<script>
+
+function verificar(){
+
+var senha=document.getElementById("senha").value.toLowerCase();
+
+if(senha=="eu sei o que voce nao sabe"){
+
+window.location.href="fase 1.html";
+
+}else{
+
+alert("Resposta incorreta.");
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>
